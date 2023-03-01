@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    /* height: 120px; */
+    background-color: white;
+}
+
+.imo{
+    height: 100px;
+    width: 300px;
+     padding: 10px; 
+}
+
+
+.hop{
+    color: white;
+    height: 50px;
+    width: 150px;
+    background-color: #1e72bc;
+    border: none;
+    position: relative;
+    bottom: 10px;
+    font-weight: 400;
+}
+
+.jumbotr{
+    background-image: url('./jumbo.png');
+    /* height: 628px; */
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.hoping{
+    background-color: white;
+    color: #1e72bc;
+    font-weight: 500;
+}
+
+.fam h3{
+    font-size: 49px;
+    font-weight: 800;
+    color: #314670;
+    letter-spacing: -1px;
+}
+
+.fam p{
+    color: white;
+}
+
+ .analy{
+    /* height: 600px; */
+    width: 100%;
+} 
+
+.secty{
+    /* height: 400px; */
+    background-color: white;
+    padding-top: 70px;
+   
+}
+
+.press h3{
+    text-transform: uppercase;
+    background: linear-gradient(to right,#1e72bc 0%,#30CFD0 100%);
+
+    font-family: Arial, Helvetica, sans-serif;
+    /* background: linear-gradient(to right, #f32170,
+            #ff6b08, #cf23cf, #eedd44); */
+
+            
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 600;
+    font-size: 42px;
+}
+
+.press p{
+    color: #999;
+}
+
+.press{
+    position: relative;
+    top: 70px;
+    line-height: 2;
+}
+
+.sect2{
+    /* height: 420px; */
+    /* background-color: orange; */
+    background-image: url('./bg_gradinat.png');
+    background-position: center center;
+    background-size: cover;
+}
+
+.bgt{
+    background-image: url('./top_layer.png');
+    height: 200px;
+    background-color: #29C6B3;
+    background-size: cover;
+    background-position: top;
+}
+
+.bgo{
+    background-image: url('./bottom_layer.png');
+    height: 187px;
+    background-color: #29C6B3;
+    background-size: cover;
+    
+}
+
+.box{
+    /* height: 250px; */
+    margin-top: 80px;
+    background-color: white;
+}
+
+.icona{
+    height:120px;
+    border: 2px solid lightgrey;
+    border-radius: 30px;
+    position: relative;
+    bottom: 40px;
+    background: white;
+}
+
+.bozz h5{
+    font-weight: 300;
+}
+
+.bozz p{
+    color: #999;
+}
+
+
+.fried{
+    height: 100px;
+    margin-top: 116px;
+    background-color: white;
+}
+
+.mes{
+    height: 3px;
+    width: 180px;
+    background-color: red;
+}
+
+.cod{
+    /* height: 568px; */
+    background-color: white;
+}
+
+/* .pippo{
+    height: 100px;
+    border: 2px solid red;
+} */
+
+.myicon{
+    font-size: 70px;
+    color:  #0aceb1;
+}
+
+.myicon:hover{
+    color: #2672BD;
+}
+
+.iphone{
+    position: relative;
+    bottom: 150px;
+}
+
+.cod h5{
+    color: #666;
+    font-weight: 700;
+    text-transform: none;
+    font-size: 18px;
+    font-family: monospace;
+}
+
+.cod li{
+    color: #86a192;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sect2 p{
+    color: #999;
+    font-size: 12px;
+}
+
+.pezzi{
+    height: 300px;
+    /* background-color: purple; */
+}
+
+.mystery{
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    border: 2px solid #0aceb1;
+    line-height: 2.6;
+   
+}
+
+.jerk{
+    background-color: #30CFD0;
+    height: 50px;
+    border-radius: 16px;
+    /* color: white; */
+}
+
+.jerk h2,small{
+    color: #1e72bc;
+    font-weight: 800;
+    padding-top: 10px;
+}
+
+.jerk h3{
+    color: white;
+    font-size: 24px;
+}
+
+.jerk button:hover{
+
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+
+.mystery ul li{
+    color:#333;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.contact{
+    position: relative;
+    top: 30px;
+    color: white;
+}
+
+.us{
+    background-color: #2672BD;
+}
+
+.us h2{
+    text-decoration: underline;
+    font-size: 80px;
+}
+
+.us p{
+    font-size: 12px;
+    
+}
+
+/* .send:hover{
+    background-color: orange;
+} */
+
+.segment{
+    height: 400px;
+    background-color: white;
+    margin-top: 40px;
+}
+
+.segment h3{
+    color: #000;
+    padding-bottom: 20px;
+}
+
+.segment  p{
+    color: #999;
+    font-size: 11px;
+}
+
+.soc{
+    color: #999;
+    /* border-bottom :  2px dashed rgba(0,0,0,0.3); */
+
+}
+
+.jerry a {
+    color: #999;
+}
+.jerry li:first-child{
+    color: #999;
+
+}
+
+.jerry li:nth-child(2){
+    font-size: 14px;
+    width: 73%;
+    font-weight: 600;
+
+}
+/* this is a session for jerry li css to be posted in github later */
